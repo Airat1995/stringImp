@@ -151,12 +151,14 @@
     <ClCompile Include="CustomStringAllocator.cpp" />
     <ClCompile Include="CustomStringImpl.cpp" />
     <ClCompile Include="DumbString.cpp" />
+    <ClCompile Include="DumbStringAllocator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Allocator.h" />
     <ClInclude Include="CustomString.h" />
     <ClInclude Include="CustomStringAllocator.h" />
     <ClInclude Include="DumbString.h" />
+    <ClInclude Include="DumbStringAllocator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
